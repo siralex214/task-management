@@ -1,4 +1,4 @@
-import TestCompo from "@components/TestCompo";
+import HomePageScreen from "@Screens/Homepage";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -6,10 +6,4 @@ export const metadata: Metadata = {
   description: "Welcome to Next.js",
 };
 
-export default function Page() {
-  return (
-    <>
-      <TestCompo />
-    </>
-  );
-}
+export default HomePageScreen;
